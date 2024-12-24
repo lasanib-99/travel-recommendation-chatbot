@@ -30,15 +30,17 @@ travel-recommendation-chatbot ├── app.py # Streamlit app script ├── 
 2. **Install Dependencies:**
 
 Ensure you have Python 3.8+ and pip installed.
-  pip install -r requirements.txt
+
+   pip install -r requirements.txt 
 
 3. **Set Up Environment Variables:**
 
 Create a .env file in the root directory
 
-HF_TOKEN=<your-hugging-face-api-key>
+   HF_TOKEN=<your-hugging-face-api-key>
 
 Run the Application:
+
   streamlit run app.py
 
 ## Usage
